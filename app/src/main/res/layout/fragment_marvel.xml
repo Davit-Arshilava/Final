@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The fact that Timely Comics (the 1930s and 40's predecessor to Marvel Comics) characters coexisted in the same world was first established in Marvel Mystery Comics #7 (1940) where Namor was mentioned in Human Torch's story, and vice versa. Later several superheroes (who starred in separate stories in the series up to that point) met each other in a group dubbed the All-Winners Squad. Though the concept of a shared universe was not new or unique to comic books in 1961, writer/editor Stan Lee, together with several artists including Jack Kirby and Steve Ditko, created a series of titles where events in one book would have repercussions in another title and serialized stories would show characters' growth and change.[1] Headline characters in one title would make cameos or guest appearances in other books. Eventually, many of the leading heroes (Ant-Man, Wasp, Iron Man, Thor and the Hulk) assembled into a team known as the Avengers, which debuted in September 1963. This was not the first time that Marvel's characters had interacted with one another—Namor the Sub-Mariner and the original Human Torch had been rivals when Marvel was Timely Comics (Marvel Vault), under editor Martin Goodman — but it was the first time that the comic book publisher's characters seemed to share a world.
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="349dp"
+        android:layout_height="184dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97"
+        app:srcCompat="@drawable/marvel_future_revolution_2000x1270" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

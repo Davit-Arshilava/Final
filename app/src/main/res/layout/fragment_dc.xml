@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The basic concept of the DC Universe is that it is supposed to be just like the real world, but with super-heroes (and super-villains) existing on it. However, there are other differences. Many fictional countries, such as Qurac, Vlatava, and Zandia, exist in it. The DC Universe typically has its comic books set in fictional cities, such as the cities of Gotham City (based upon New York City, New Jersey and Chicago) and Metropolis (based in part upon Toronto, though like Gotham, it also serves as a New York City analog in the comics). These cities are effectively fictional archetypes of cities, with Gotham City embodying the negative aspects of life in a large city, and Metropolis reflecting more of the positive aspects. The presence of superhumans affected the cities, but the general history of the fictional United States was similar to the real one. Recently, many events that changed the whole political stage of the World have taken place, from Lex Luthor being elected as President of the United States, to entire cities (and even some countries) being destroyed, as well as a Third World War. There are other significant changes, such as the Earth is slightly larger than ours. The planet Saturn has 18 moons rather than 19 because Superman destroyed one, and other such differences.
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="408dp"
+        android:layout_height="221dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/dc"
+        tools:layout_editor_absoluteX="2dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
